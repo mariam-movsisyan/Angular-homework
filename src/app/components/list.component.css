@@ -1,0 +1,36 @@
+li {
+    background: #edf5e1;
+    padding: 10px 20px 10px;
+    border: solid 5px #c4df9b;
+    position: relative;
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 40px;
+    padding: 40px 10px;
+    width: 40%;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.remove-button {
+    position: absolute;
+    font-size: 40px;
+    top: 0;
+    color: darkred;
+    right: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}  
+.color-btn{
+    position: absolute;
+    top: 45px;
+    font-size: 20px;
+    right: 70px;
+    border: 2px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 7px;
+    font-family: 'Rubik Bubbles', cursive;
+    border: solid 5px #c4df9b;
+}
+
+  

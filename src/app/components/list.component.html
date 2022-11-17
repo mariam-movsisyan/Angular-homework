@@ -1,0 +1,8 @@
+<ul class="names">
+  <li *ngFor="let name of names, let i = index">
+    <span class="name">{{name}}</span>
+    <button type="button" (click)="onSelect(i)" class="remove-button">[x]</button>
+    <button class="color-btn" (click)="onChangeColor(name, i)" 
+    [ngStyle]="{'background-color': selectedUser === name? selectedColor: 'transparent'}">Change color</button>
+  </li>
+</ul>
